@@ -29,14 +29,6 @@ namespace NetConfCo2018.WebSite.Controllers
             return View();
         }
 
-        public IActionResult Linux()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-
         public IActionResult Privacy()
         {
             return View();
